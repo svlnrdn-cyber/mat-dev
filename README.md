@@ -1,4 +1,5 @@
-#include <iostream>
+<pre>
+    #include <iostream>
 #include <cmath>
 
 using namespace std;
@@ -37,4 +38,5 @@ int main()
     cout << "\n ______________________" << endl;
 
     return 0;
-}
+
+</pre>
