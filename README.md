@@ -1,5 +1,4 @@
-<pre>
-  #include <iostream>
+#include <iostream>
 #include <cmath>
 
 using namespace std;
@@ -26,5 +25,16 @@ int main()
         {
             break;
         }
-        cout << "Hata! x pozitif bir sayı olmalıdı
-</pre>
+        cout << "Hata! x pozitif bir sayı olmalıdır." << endl;
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+
+    double result_q3 = derivative_q3(x_q3);
+
+    cout << "Girilen x = " << x_q3 << " için f'(x) değeri: " << result_q3 << endl;
+
+    cout << "\n ______________________" << endl;
+
+    return 0;
+}
